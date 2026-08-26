@@ -1,0 +1,87 @@
+.Signup a {
+  color: blue;
+}
+body {
+  background: linear-gradient(to left, #a619f8 30%, #00f2fe 70%);
+  padding-top: 100px;
+}
+.square-box {
+  margin-top: 300px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  width: 40px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: blanchedalmond;
+  border-bottom: 2px solid #000;
+}
+.dropdown-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+.square-box h1 {
+  font-weight: bold;
+}
+section {
+  min-height: 100vh;
+
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#home {
+  background: linear-gradient(to left, red, rgbx(244, 0, 1, 0.4));
+}
+.logo {
+  height: 50px;
+}
+.masthead {
+  border: 1px solid black;
+  min-height: 60vh;
+  position: relative;
+  color: black;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: cyan;
+}
+.col {
+  border: 1px solid black;
+  height: 500px;
+  gap: 20px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #000;
+  height: 50px;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+#home p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact {
+  min-height: auto;
+}
+
+#contact form {
+  max-width: 600px;
+  position: relative;
+  left: 600px;
+}
+#about{
+  text-align: center;
+}
+.card{
+  position: relative;
+  left: 750px;
+}
